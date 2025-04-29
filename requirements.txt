@@ -1,0 +1,6 @@
+PyQt5==5.15.11
+requests==2.31.0
+PyMuPDF==1.23.7
+PyPDF2==3.0.1
+markdown==3.5.2
+sip==6.10.0
