@@ -45,7 +45,7 @@ git clone https://github.com/Saeran-Chang/SmartLiteratureManager.git
 pip install -r requirements.txt
 
 # 启动程序
-python main.py
+python Main.py
 ```
 
 ## 🖥️ 使用说明
@@ -94,7 +94,7 @@ SmartLiteratureManager
 │ ├── BaseWorker.py
 │ ├── ChatWorker.py
 │ └── FileUploadWorker.py
-├── main.py
+├── Main.py
 └── requirements.txt
 
 ```

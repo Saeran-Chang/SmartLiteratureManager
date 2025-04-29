@@ -91,7 +91,7 @@ class LiteratureManager(QMainWindow):
 
     def apply_styles(self):
         """从外部文件加载样式"""
-        style_file = QFile("style/LiteratureStyle.qss")
+        style_file = QFile("Style/LiteratureStyle.qss")
         if style_file.open(QFile.ReadOnly | QFile.Text):
             stream = QTextStream(style_file)
             self.setStyleSheet(stream.readAll())

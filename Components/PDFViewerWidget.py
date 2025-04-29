@@ -155,7 +155,7 @@ class PDFViewerWidget(QWidget):
     # 应用 VSCode 风格样式表
     def load_stylesheet(self):
         try:
-            with open("style/PDFViewerStyle.qss", "r", encoding="utf-8") as f:
+            with open("Style/PDFViewerStyle.qss", "r", encoding="utf-8") as f:
                 self.setStyleSheet(f.read())
         except Exception as e:
             print(f"无法加载样式表: {str(e)}")
