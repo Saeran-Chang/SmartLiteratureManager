@@ -83,7 +83,7 @@ SmartLiteratureManager
 │ └── content.json
 ├── Dialog
 │ └── SettingDialog.py
-├── style
+├── Style
 │ ├── LiteratureStyle.qss
 │ └── PDFViewerStyle.qss
 ├── Utils
